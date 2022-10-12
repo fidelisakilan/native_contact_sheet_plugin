@@ -1,15 +1,17 @@
 # contact_sheet
 
-A new Flutter Plugin.
+Flutter plugin to show Contact sheet without any permissions  
+- arguments 
+  - name
+  - organisation
+  - email
+  - list of numbers
 
-## Getting Started
+## Reference
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+- Just call `ContactSheet().open()` to open native contact sheet
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 
+## Screenshots
+
+![Android](images/android.png) ![IOS](images/ios.png)

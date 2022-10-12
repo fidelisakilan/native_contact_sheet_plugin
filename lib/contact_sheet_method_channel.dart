@@ -17,10 +17,10 @@ class MethodChannelContactSheet extends ContactSheetPlatform {
     String? org,
   }) async {
     final params = {
-      'name': name,
-      'email': email,
-      'phone': phone,
-      'org': org,
+      'name': name ?? '',
+      'email': email ?? '',
+      'phone': phone ?? [],
+      'org': org ?? '',
     };
     await methodChannel.invokeMethod<String>('openContactSheet', params);
   }
