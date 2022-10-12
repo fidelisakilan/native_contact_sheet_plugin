@@ -14,4 +14,6 @@ Flutter plugin to show Contact sheet without any permissions
 
 ## Screenshots
 
-![Android](images/android.png) ![IOS](images/ios.png)
+Android | IOS
+--- | ---
+![Android](images/android.png) | ![IOS](images/ios.png)
